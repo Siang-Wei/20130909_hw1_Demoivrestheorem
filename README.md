@@ -1,14 +1,12 @@
-20130909_hw1_Demoivrestheorem
-=============================
+##20130909_hw1_Demoivrestheorem
 
-20130909_hw1_z=1
 
-// De moivre's theorem.cpp : 定義主控台應用程式的進入點。
-//
+#z=1
 
-#include "stdafx.h"
-#include<iostream>
-#include<cmath>
+```
+ #include "stdafx.h"
+ #include <iostream>
+ #include <cmath>
 using namespace std;
 
 int main()
@@ -31,16 +29,13 @@ int main()
 	cout << endl;	
 	return 0;
 }
+```
 
-
-加分題_20130909_hw1_z=2+3i
-
-// De moivre's theorem.cpp : 定義主控台應用程式的進入點。
-//
-
-#include "stdafx.h"
-#include<iostream>
-#include<cmath>
+#z=2+3i
+```
+ #include "stdafx.h"
+ #include<iostream>
+ #include<cmath>
 using namespace std;
 
 int main()
@@ -63,3 +58,4 @@ int main()
 	cout << endl;	
 	return 0;
 }
+```
